@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="popup.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coiny">
+		<script src="https://kit.fontawesome.com/29ee0bc57e.js" crossorigin="anonymous"></script>
+		<title>TagaCorgi</title>
+	</head>
+	<style type="text/css">
+		body {
+			width: 600px;
+			height: 380px;
+			background-image: url(images/house.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		/*<a href='https://www.freepik.com/vectors/background'>Background vector created by pikisuperstar - www.freepik.com</a>*/
+	</style>
+
+	<body>
+		<h1 id="title"
+		style="text-align:center;
+			font-size: 36px;
+			color: #FF7070;
+			letter-spacing: 2px;
+			font-family: Coiny, sans-serif;">
+				TAMACORGI
+		</h1>
+
+		<button id="start"
+		style="
+			border-color: #5BC679;
+			border-width: 3px;
+			border-style: outset;
+			background-color: #92E3A9;
+			color: white;
+			padding: 14px 16px;
+			font-size: 16px;
+			border-radius: 50px;
+			display: block;
+			margin: auto;
+			font-family: Coiny, sans-serif;">START!
+		</button>
+
+		<div id="walk-anim" >
+			<img id="walk" src="images/Corgi walk.gif" style="display: none;">
+			<img id="hearts" src="images/hearts.gif" style="display: none; width: 70%; z-index: 99;">
+			<img id="love" src="images/love.gif" style="display: none;">
+		</div>
+
+		<div id="heart-counter" style="display: none">
+			<h1 style="display: inline; font-family: Coiny, sans-serif; color: #FF7070; font-size: 20px;">Hearts: </h1>
+			<h1 id="counter" style="display: inline; font-family: Coiny, sans-serif; color: #FF7070; font-size: 20px;">0</h1>
+		</div>
+
+		<div id="todo" style="display: none; margin: auto; text-align: center;">
+			<h1 style="font-family: Coiny, sans-serif; color: #424242; font-size: 24px;">add a task!</h1>
+			<input type="text" id="input" name="input" placeholder="tasks, reminders, events, etc"
+			style="
+				width: 75%;
+				margin-right: 0;
+				padding: 10px;
+				border: none;
+				border-radius: 10px;
+				font-size: 16px;
+				font-family: Verdana, sans-serif;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+			<span class="addButton" id="add"
+			style="
+				cursor: pointer;
+				margin-left: 0;
+				width: 25%;
+				border-color: #5BC679;
+				border-width: 3px;
+				border-style: outset;
+				background-color: #92E3A9;
+				color: white;
+				padding: 14px 16px;
+				font-size: 16px;
+				border-radius: 50px;
+				margin: auto;
+				font-family: Coiny, sans-serif;">ADD!</span>
+			<br><br>
+			<ul id="todoList" style="margin: auto;">
+			</ul>
+		</div>
+<!-- 		<div id="name" style="display: none; margin: auto; text-align: center;">
+			<form action="popup2.html" method="POST" id="form">
+				<label for="corgiName" style="font-family: Coiny, sans-serif; color: #424242; font-size: 24px">name your corgi!</label><br>
+				<input type="text" id="corgiName" name="corgiName" placeholder="i like the name georgie!" 
+				style="
+					width: 50%;
+					margin-right: 0;
+					padding: 10px;
+					border: none;
+					border-radius: 10px;
+					font-size: 16px;
+					font-family: Verdana, sans-serif;
+					box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+				<br><br>
+				<input type="submit" value="WOOF!" id="submit" 
+				style="
+					border-color: #5BC679;
+					border-width: 3px;
+					border-style: outset;
+					background-color: #92E3A9;
+					color: white;
+					padding: 14px 16px;
+					font-size: 16px;
+					border-radius: 50px;
+					display: block;
+					margin: auto;
+					font-family: Coiny, sans-serif;">
+			</form>
+		</div> -->
+
+		<div id="intro" >
+			<img id="butt" src="images/intro.gif" style="display: block;">
+		</div>
+	</body>
+	<script src="popup.js"></script>
+</html>

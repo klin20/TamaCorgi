@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "TamaCorgi",
+  "description": "A tamagotchi but with a pet corgi. To take care of the corgi, check off tasks from your to-do list or complete tasks from your pet!",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_popup": "popup.html"
+  },
+
+  "icons": { 
+  	"16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  // "background": {
+  // 	"scripts": ["background.js"],
+  //   "persistent": false
+  // },
+
+  "permissions": [
+  	"activeTab",
+  	"storage"
+  ],
+   "content_security_policy": "script-src 'self' https://kit.fontawesome.com/29ee0bc57e.js; object-src 'self'"
+}
