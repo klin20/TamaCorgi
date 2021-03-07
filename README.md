@@ -76,7 +76,7 @@ None
 <p>4. Hover over Georgie, the moonwalk loving corgi, to give him some heart points</p>
 <p>5. Complete tasks from Georgie to also get heart points</p>
 
-<p> For more information you can watch the video about this project https://www.youtube.com/watch?v=juMu1YXpLF0 </p>
+<p> For more information you can watch the video about this project https://youtu.be/r8AuS3nw_6E </p>
 
 <!-- CONTACT -->
 ## Contact
